@@ -1,0 +1,103 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    outline: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 90vh;
+    background-color: rgba(255, 0, 0, 0.247);
+}
+header {
+    margin: 10px 0px 15px 0px;
+
+    h1 {
+        background-color: rgba(250, 235, 215, 0.226);
+        text-align: center;
+        text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.856);
+    }
+
+}
+main {
+    display: block;
+    background-color: rgba(133, 112, 124, 0.226);
+    border: 1px solid rgba(0, 0, 0, 0.253);
+    box-shadow: 0px 1px 3px 0px rgba(255, 255, 255, 0.281);
+    border-radius: 10px;
+    max-width: 350px;
+    margin: auto auto 10px auto;
+
+    .inputs {
+        display: flex;
+        height: 80vh;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: -10px;
+        flex: 1;
+
+        label {
+            font-size: 1.3em;
+        }
+
+        .label-container {
+            margin-left: 21px;
+            margin-right: -6px;
+        }
+
+        .label-age {
+            margin-right: 14px;
+        } 
+
+        input {
+            border: 1px solid rgba(0, 0, 0, 0.253);
+            border-radius: 5px;
+            font-size: 1.1em;
+            max-width: 80%;
+            margin: 5px;
+        }
+
+        .choice-inputs {
+            margin-top: 20px;
+        }
+
+        input[type = submit] {
+            color: white;
+            background-color: rgba(0, 0, 0, 0.63);
+            border: 1px solid rgba(0, 0, 0, 0.226);
+            box-shadow: 1px 0px 2px 0px white;
+            border-radius: 5px;
+            padding: 4px;
+            margin-top: 60px;
+            cursor: pointer;
+        }
+
+        input[type = submit]:hover {
+            background-color: rgba(0, 0, 0, 0.692);
+        }
+    }
+
+}
+hr {
+    width: 50vw;
+    margin: auto;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 20px;
+
+    a {
+        background-color: rgba(255, 0, 0, 0.274);
+        color: white;
+        border: 1px solid rgba(0, 0, 0, 0.24);
+        border-radius: 5px;
+        box-shadow: 1px 1px 5px 0px white;
+        text-decoration: none;
+    }
+    a:hover {
+        color: rgba(0, 0, 0, 0.384);
+        text-decoration: underline;
+    }
+}
