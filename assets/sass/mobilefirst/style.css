@@ -59,6 +59,7 @@ main .inputs .choice-inputs {
 }
 main .inputs input[type=submit] {
   color: white;
+  max-width: 100px;
   background-color: rgba(0, 0, 0, 0.63);
   border: 1px solid rgba(0, 0, 0, 0.226);
   box-shadow: 1px 0px 2px 0px white;
@@ -69,6 +70,41 @@ main .inputs input[type=submit] {
 }
 main .inputs input[type=submit]:hover {
   background-color: rgba(0, 0, 0, 0.692);
+}
+main img {
+  height: 200px;
+  width: 250px;
+  border-radius: 50%;
+}
+main .four-old-boy {
+  display: none;
+}
+main .four-old-girl {
+  display: none;
+}
+main .fourteen-old-boy {
+  display: none;
+}
+main .fourteen-old-girl {
+  display: none;
+}
+main .twenty-old-boy {
+  display: none;
+}
+main .twenty-old-girl {
+  display: none;
+}
+main .forty-old-man {
+  display: none;
+}
+main .forty-old-woman {
+  display: none;
+}
+main .sixty-old-man {
+  display: none;
+}
+main .sixty-old-woman {
+  display: none;
 }
 
 hr {

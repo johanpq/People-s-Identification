@@ -63,6 +63,7 @@ main {
 
         input[type = submit] {
             color: white;
+            max-width: 100px;
             background-color: rgba(0, 0, 0, 0.63);
             border: 1px solid rgba(0, 0, 0, 0.226);
             box-shadow: 1px 0px 2px 0px white;
@@ -75,7 +76,24 @@ main {
         input[type = submit]:hover {
             background-color: rgba(0, 0, 0, 0.692);
         }
+
     }
+
+    img {
+        height: 200px;
+        width: 250px;
+        border-radius: 50%;
+    }
+    .four-old-boy {display: none;}
+    .four-old-girl {display: none;}
+    .fourteen-old-boy {display: none;}
+    .fourteen-old-girl {display: none;}
+    .twenty-old-boy {display: none;}
+    .twenty-old-girl {display: none;}
+    .forty-old-man {display: none;}
+    .forty-old-woman {display: none;}
+    .sixty-old-man {display: none;}
+    .sixty-old-woman {display: none;}
 
 }
 hr {
